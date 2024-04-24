@@ -1,0 +1,157 @@
+ 
+
+  
+  #displayHeadingBox h2{
+     margin-left: 10px;
+     font-size: 30px;
+    
+    /* background-color: yellow; */
+ }
+
+
+ /* -------------------------------------------------------------------------------- */
+ 
+ 
+ #tableBox{
+     /* background-color: cyan; */
+     width: 1050px;
+     float:left;
+     margin-left: 10px;
+     font-size: 20px;
+     background-color: #ceecf8e8;
+ }
+   
+    table{
+      width: 100%;
+      border-collapse: collapse;
+     
+    }
+
+   table,tr,td,th{
+     border: 1px solid black;
+   }
+ 
+   #center{
+     text-align: center;
+   }
+ 
+   tr{
+     text-align: center;
+   }
+
+   th{
+    height: 35px;
+   }
+ 
+    tr td button{
+      color: white;
+      background-color: rgb(62, 147, 153);
+      height: 35px;
+      min-width: 90px;
+      border-radius: 7px;
+    }
+ 
+    tr td button:hover{
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+ 
+    #addSubjectBox{
+       /* background-color: yellow; */
+       float: left;
+       width: 100px;
+       margin-left: 10px;
+       margin-top: 10px;
+    }
+
+
+    #addSubjectBox button{
+          height: 30px;
+          color: #fff;
+          background-color: rgb(62, 147, 153);
+          border-color: rgb(58, 102, 105);
+          border-radius: .25rem;
+          cursor: pointer;
+    }  
+
+
+    #addSubjectBox button:hover{
+      background-color:rgb(28, 78, 82);
+ }
+ 
+ /* ---------------------------------------------------------------------------------- */
+
+ /* Add Subject css */
+
+ 
+ #addBox{
+  margin-top: 50px;
+  margin-left: 10px;
+
+ /* background-color: yellow; */
+ float: left;
+ width: 1050px;
+ min-height: 150px;
+ float: left;
+ /* display:none; */
+ 
+}
+
+/* #buttonBox{
+        
+} */
+
+   #addBox button {
+      margin-top: 10px; 
+      height: 30px;
+      color: #fff;
+      background-color: rgb(62, 147, 153);
+      border-color: rgb(26, 89, 94);
+      border-radius: .25rem;
+      cursor: pointer;
+      margin-left: 3px;
+      min-width: 50px;
+  }
+
+  #addBox button:hover{
+    background-color: rgb(28, 78, 82);
+}
+
+
+
+#addBox input{
+  margin-top: 20px;
+  width: 800px;
+  height: 25px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #131212;
+  background-color: #ceecf8e8;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+
+#addBox label{
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #fcfbfb;
+  /* font-size: 21px; */
+  border: 2px solid rgb(26, 89, 94);
+  background-color: rgb(62, 147, 153);
+  padding: 3px;
+  border-radius: 8px;
+ 
+  
+}
+
+
+
+.addQuestion{
+   margin-top:0px !important;   
+}
+
+
